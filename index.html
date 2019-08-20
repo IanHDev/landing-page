@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Gripforce Bike Pedals</title>
+</head>
+<!-- 
+  header with id="header"
+
+  image within header with id="header-img"
+
+  within #header, there is a nav element with id="nav-bar"
+
+  at least three clickable elements inside the nav element, each with the class nav-link
+
+   I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+
+ embedded product video with id="video"
+
+  has a form element with a corresponding id="form"
+
+  Within the form, there is an input field with id="email" where I can enter an email address
+
+  #email input field should have placeholder text to let the user know what the field is for
+
+  #email input field uses HTML5 validation to confirm that the entered text is an email address
+
+  Within the form, there is a submit input with a corresponding id="submit"
+
+  When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit)
+
+  The navbar should always be at the top of the viewport
+
+  My product landing page should have at least one media query
+
+   should utilize CSS flexbox at least once
+
+   You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+ -->
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <div><img id="header-img" src="" alt="bike pedal"></div>
+      <div class="nav-link"><h1>Gripforce&trade; Bike Pedals: Eliminate Pedal Slip</h1></div>
+      <div class="nav-link">How It Works</div>
+      <div class="nav-link">Pricing</div>
+      <div class="nav-link">About Gripforce&trade;</div>
+    </nav>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+      <h2>Join our email list</h2>
+      <input id="email" type="email" placeholder="Enter your email address" required>
+      <input id="submit" type="submit" value="Stay Informed">
+    </form>
+  </header>
+  <footer>
+    Author: <a href="https://twitter.com/intent/tweet?screen_name=IanHDev&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </footer>
+</body>
+</html>
