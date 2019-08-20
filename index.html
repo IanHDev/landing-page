@@ -8,30 +8,32 @@
   <title>Gripforce Bike Pedals</title>
 </head>
 <!-- 
-  header with id="header"
+  Xheader with id="header"
 
-  image within header with id="header-img"
+  Ximage within header with id="header-img"
 
-  within #header, there is a nav element with id="nav-bar"
+  Xwithin #header, there is a nav element with id="nav-bar"
 
-  at least three clickable elements inside the nav element, each with the class nav-link
+  Xat least three clickable elements inside the nav element, each with the class nav-link
+
+
+
+ Xembedded product video with id="video"
+
+  Xhas a form element with a corresponding id="form"
+
+  XWithin the form, there is an input field with id="email" where I can enter an email address
+
+  X#email input field should have placeholder text to let the user know what the field is for
+
+  X#email input field uses HTML5 validation to confirm that the entered text is an email address
+
+  XWithin the form, there is a submit input with a corresponding id="submit"
+
+  XWhen I click the #submit element, the email is submitted to a static page (use this mock URL:      https://www.freecodecamp.com/email-submit)
 
    I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
-
- embedded product video with id="video"
-
-  has a form element with a corresponding id="form"
-
-  Within the form, there is an input field with id="email" where I can enter an email address
-
-  #email input field should have placeholder text to let the user know what the field is for
-
-  #email input field uses HTML5 validation to confirm that the entered text is an email address
-
-  Within the form, there is a submit input with a corresponding id="submit"
-
-  When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit)
-
+   
   The navbar should always be at the top of the viewport
 
   My product landing page should have at least one media query
@@ -55,6 +57,26 @@
       <input id="submit" type="submit" value="Stay Informed">
     </form>
   </header>
+  <section>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/uy_ux4ApZ6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  <section id="howitworks">
+    <article>
+      <img class="howicon" src="" alt="">
+      <h3>Sealed Military Grade Bearings</h3>
+      <p> The axle of the Gripforce&trade; pedals is made of chromoly steel, with Lubricated sealed bearings platform pedals(three high-quality bearings). Sealed bearings protect spindles from water and dust which will cause noise and other problems, let you enjoy cycling in raining or climbing.</p>
+    </article>
+    <article>
+      <img class="howicon" src="" alt="">
+      <h3>Unmatched Grip</h3>
+      <p> Gripforce&trade; pedals have <strong>TWENTY</strong> aluminum ANTI-SKID nails in the surface for efficiency pedaling. This bike pedals prevent your shoes from sliding off when it is wet,and whatever position you place your feet that’s where they stay on. The extra studs and tools are also provided for replacement needs.</p>
+    </article>
+    <article>
+      <img class="howicon" src="" alt="">
+      <h3>Wide and Lightweight</h3>
+      <p>The Gripforce&trade; platform pedals weights only 422g (pair),102mm wide pedals supports the foot more evenly when riding, provide more comfortable riding experience for you. Hollow design on the surface not only reduces the weight of the pedal but also reduce the wind resistance during riding.</p>
+    </article>
+  </section>
   <footer>
     Author: <a href="https://twitter.com/intent/tweet?screen_name=IanHDev&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </footer>
