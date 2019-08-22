@@ -1,24 +1,33 @@
 html body {
   /* setting universal font size */
   font-size: 1rem;
-  /* color: white;
-  background: black; */
+  background-image: radial-gradient(circle, #b2b7c0, #b7bcc5, #bdc1c9, #c2c6ce, #c8cbd3);
+
 }
 
 #header {
   padding: 70px;
   text-align: center;
-  background: black;
-  color: white;
   font-size: 2rem;
+}
+
+#header-img {
+  height: 250px;
+  width: 250px;
 }
 
 #nav-bar {
   display: flex;
-  background: black;
-  color: white;
   position: fixed;
   top: 0;
+  background: #b2b7c0;
+}
+
+.line {
+  margin: 25px 0;
+  height: 10px;
+  background: black;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
 }
 
 #nav-bar a {
@@ -28,11 +37,11 @@ html body {
 }
 
 #nav-bar a:hover {
-  background-color: red;
-  color:black;
+
 }
 
 .howicon {
   height: 150px;
   width: 150px;
 }
+
