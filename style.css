@@ -27,7 +27,36 @@ html body {
   height: 250px;
   width: 250px;
 }
+
 .nav-wrap {
+  position: sticky;
+  top: 0;
+  }
+
+
+#nav-bar {
+  display:flex;
+  background-color: #eee;
+  align-self: center;
+  align-content: space-between;
+  flex-direction: row;
+}
+
+#nav-h1 {
+  align-self: flex-start;
+  flex-basis: 300px;
+}
+
+.nav-split {
+
+}
+
+.nav-data{
+align-self: center;
+left: 10px;
+}
+
+/* .nav-wrap {
   position: fixed;
 }
 
@@ -35,11 +64,7 @@ html body {
   display: flex;
   
   top: 5px;
-  /* left: 65px;
-  right: 65px; */
   color: #393e4a;
-  /* align-items: center;
-  flex-basis: auto; */
   
 }
 
@@ -62,13 +87,12 @@ html body {
 }
 
 #nav-bar a {
-  /* padding: 20px 10px; */
   text-align: center;
   font-size: 2rem;
   flex-grow: 2;
-  /* flex-basis: 300px; */
   
-}
+  
+} */
 
 #nav-bar a:hover {
 background: #fcbe92;
