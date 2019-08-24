@@ -14,7 +14,7 @@ html body {
   border-style: solid;
   border-color: white;
   margin: 30px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #header {
@@ -30,30 +30,34 @@ html body {
 
 .nav-wrap {
   position: sticky;
-  top: 0;
+  top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
   }
 
 
 #nav-bar {
   display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding-left: 65px;
+  padding-right: 65px;
   background-color: #eee;
-  align-self: center;
-  align-content: space-between;
-  flex-direction: row;
 }
 
 #nav-h1 {
-  align-self: flex-start;
-  flex-basis: 300px;
 }
 
-.nav-split {
+
+.nav-links a {
+ 
 
 }
 
-.nav-data{
-align-self: center;
-left: 10px;
+.nav-data {
+list-style: none;
+display: flex;
 }
 
 /* .nav-wrap {
