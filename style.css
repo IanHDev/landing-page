@@ -8,13 +8,14 @@ html body {
 }
 
 #main {
-  background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(186,190,195,1) 41%);
-  padding: 50px 50px;
+  background: #babec6;
+  /* background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(186,190,195,1) 41%); */
+  padding: 0px 50px;
   border: 15px;
   border-style: solid;
   border-color: white;
-  margin: 30px;
-  margin-top: 50px;
+  margin: 100px;
+ 
 }
 
 #header {
@@ -31,8 +32,8 @@ html body {
 .nav-wrap {
   position: sticky;
   top: 0px;
-  margin-left: 50px;
-  margin-right: 50px;
+
+  
   }
 
 
@@ -43,7 +44,7 @@ html body {
   
   padding-left: 65px;
   padding-right: 65px;
-  background-color: #eee;
+  background: #babec6;
 }
 
 #nav-h1 {
@@ -51,13 +52,14 @@ html body {
 
 
 .nav-links a {
- 
+padding: 20px;
 
 }
 
 .nav-data {
 list-style: none;
 display: flex;
+
 }
 
 /* .nav-wrap {
