@@ -2,39 +2,42 @@ html body {
   /* setting universal font size */
   font-size: 1rem;
   background: linear-gradient(145deg, rgba(186,190,195,1) 0%, rgba(71,75,85,1) 27%);
-  /* background-image: radial-gradient(circle, #b2b7c0, #b7bcc5, #bdc1c9, #c2c6ce, #c8cbd3); */
+  
   color: #393e4a;
- 
-
 }
+
+/* font-family: 'PT Serif', serif;
+font-family: 'Signika', sans-serif;
+font-family: 'Alegreya', serif; */
 
 #main {
   background: #babec6;
-  /* background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(186,190,195,1) 41%); */
   padding: 0px 50px;
   border: 15px;
   border-style: solid;
   border-color: white;
   margin: 100px;
- 
+  font-family: 'Alegreya', serif;
+  font-size: 1.15rem;
 }
 
 #header {
   padding: 70px;
   text-align: center;
   font-size: 2rem;
+  font-family: 'PT Serif', serif;
+
 }
 
 #header-img {
-  width: 350px;
-  background: orange;
+  width: 500px;
+  /* background: radial-gradient(circle, rgba(219,135,79,1) 0%, rgba(186,190,198,0) 70%); */
+  /* background: #db874f; */
 }
 
 .nav-wrap {
   position: sticky;
   top: 0px;
-
-  
   }
 
 
@@ -43,19 +46,32 @@ html body {
   justify-content: space-between;
   align-items: center;
   
-  padding-left: 65px;
-  padding-right: 65px;
+  padding-left: 0px;
+  padding-right: 0px;
   background: #babec6;
 }
 
+#nav-img {
+  width: 100px;
+ 
+}
+
 #nav-h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-family: 'Signika', sans-serif;
+  letter-spacing: .5rem;
+}
+
+#nav-h2 {
+  font-size: 2rem;
+  font-family: 'Signika', sans-serif;
+  font-style: italic;
 }
 
 
 .nav-links a {
-padding: 20px;
-
+padding: 10px;
+color: #393e4a;
 }
 
 .nav-data {
@@ -65,7 +81,12 @@ display: flex;
 }
 
 #nav-bar a:hover {
-background: #fcbe92;
+transition: .5s;
+  /* background: #fcbe92; */
+  background: #393e4a;
+  color: #babec6;
+  border-radius: 30px;
+
 }
 
 #main-flex {
