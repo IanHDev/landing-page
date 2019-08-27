@@ -125,6 +125,7 @@ transition: .5s;
  border-radius: 5px;
  border-style: solid;
  border-color: #393e4a;
+
 }
 
 #gallery-flex {  
@@ -139,11 +140,69 @@ transition: .5s;
   width: 300px;
 }
 
-#pricing {
+#howitworks {
   display: flex;
   flex-direction: column;
+  margin: 100px;
+  
+}
+
+.about-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.after-icon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  text-align: left;
+  
+}
+
+.after-icon h3 {
+  font-size: 1.75rem;
+  margin: 0px;
+}
+
+.after-icon p {
+  margin: 0px 0px 30px 0px;
+}
+
+.icon {
+  color: #db874f;
+  font-size: 2rem;
+  padding-right: 30px;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: center;
 }
 
 .price-flex {
-  width: 200px;
+  width: 300px;
+  text-align: center;
+  border:#393e4a;
+  border-style: solid;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.price-flex input {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 20px 0px 40px 0px;
+  background: #db874f;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #393e4a;
+}
+
+.price-flex a:hover {
+  transition: .5s;
+  background: #fcbe92;
 }
