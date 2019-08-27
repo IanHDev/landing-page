@@ -45,16 +45,19 @@
 
    You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
  -->
-<div id="main">
 
-  <body>
 
+<body>
+  <div id="main">
     <!-- Navbar will stick to top of page. -->
     <div class="nav-wrap">
       <nav id="nav-bar">
-        <img id="nav-img" src="https://github.com/IanHDev/landing-page/blob/master/img/bicycle-3.png?raw=true" alt="bike">
-        <h1 id="nav-h1">GRIPFORCE&trade;</h1>
-        <h2 id="nav-h2">The superior bike pedal</h2>
+        <img id="nav-img" src="https://github.com/IanHDev/landing-page/blob/master/img/bicycle-3.png?raw=true"
+          alt="bike">
+        <div id="nav-brand">
+          <h1 id="nav-h1">GRIPFORCE&trade;</h1>
+          <p id="nav-info">The superior bike pedal</p>
+        </div>
         <ul class="nav-data">
           <li class="nav-links"><a href="#"> <i class="fas fa-bicycle"></i> <strong> How It Works</strong> </a></li>
           <li class="nav-links"><a href="#"> <i class="fas fa-bicycle"></i> <strong>About </strong></a></li>
@@ -63,61 +66,83 @@
       </nav>
     </div>
 
-
     <!-- Area below navbar.  -->
     <header id="header">
       <!-- Image found at https://svgsilh.com/000000/image/159918.html -->
-      <!-- Change image to link from github --><img id="header-img" src="https://github.com/IanHDev/landing-page/blob/master/img/oldtimey.png?raw=true" alt="bike">
+      <img id="header-img" src="https://github.com/IanHDev/landing-page/blob/master/img/oldtimey.png?raw=true"
+        alt="Oldtimey bike">
       <h1>Eliminate Pedal Slip</h1>
     </header>
-<div id=main-flex>
-    <!-- Page split. Left side 70% main content. Right side 30% gallery via flex. -->
-    <aside id="gallery-flex">
-      <!-- Images retrieved from www.Pixabay.com -->
-      <img class="gallery-img" src="https://github.com/IanHDev/landing-page/blob/master/img/bike-2576823_1920.jpg?raw=true" title="title" alt="alt">
-      <img class="gallery-img" src="https://github.com/IanHDev/landing-page/blob/master/img/bike-4034630_640.jpg?raw=true" title="title" alt="alt">
-      <img class="gallery-img" src="https://github.com/IanHDev/landing-page/blob/master/img/gear-2251764_640.jpg?raw=true" title="title" alt="alt">
-      <img class="gallery-img" src="https://github.com/IanHDev/landing-page/blob/master/img/gear-2291916_640.jpg?raw=true" title="title" alt="alt">
-      <img class="gallery-img" src="https://github.com/IanHDev/landing-page/blob/master/img/pedal-2542003_1920.jpg?raw=true" title="title" alt="alt">
-      
+    <div id=main-flex>
 
-    </aside>
-    <div id="info-flex">
-    <!-- Form contains an email submission box -->
-    <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
-      <h2>Join our email list</h2>
-      <input id="email" type="email" placeholder="Enter your email address" required>
-      <input id="submit" type="submit" value="Stay Informed">
-    </form>
-    <section id="about">
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/uy_ux4ApZ6Q" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section id="howitworks">
-      <article>
-        <div class="icon"><i class="fas fa-cog"></i></div>
-        <h3>Sealed Military Grade Bearings</h3>
-        <p> The axle of the Gripforce&trade; pedals is made of chromoly steel, with Lubricated sealed bearings platform
-          pedals(three high-quality bearings). Sealed bearings protect spindles from water and dust which will cause
-          noise and other problems, let you enjoy cycling in raining or climbing.</p>
-      </article>
-      <article>
-        <div class="icon"><i class="fas fa-shoe-prints"></i></div>
-        <h3>Unmatched Grip</h3>
-        <p> Gripforce&trade; pedals have <strong>TWENTY</strong> aluminum ANTI-SKID nails in the surface for efficiency
-          pedaling. This bike pedals prevent your shoes from sliding off when it is wet,and whatever position you place
-          your feet that’s where they stay on. The extra studs and tools are also provided for replacement needs.</p>
-      </article>
-      <article>
-        <div class="icon"><i class="fas fa-feather-alt"></i></div>
-        <h3>Wide and Lightweight</h3>
-        <p>The Gripforce&trade; platform pedals weights only 422g (pair),102mm wide pedals supports the foot more evenly
-          when riding, provide more comfortable riding experience for you. Hollow design on the surface not only reduces
-          the weight of the pedal but also reduce the wind resistance during riding.</p>
-      </article>
-    </section>
-  </div>
-</div>
+      <!-- Page split. Left side 70% main content. Right side 30% gallery via flex. -->
+      <div id="info-flex">
+
+        <!-- Form contains an email submission box -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+          <h2>Join our email list</h2>
+          <input id="email" type="email" placeholder="Enter your email address" required>
+          <br>
+          <input id="submit" type="submit" value="Stay Informed">
+        </form>
+
+        <section id="about">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/uy_ux4ApZ6Q" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="howitworks">
+          <article>
+            <div class="icon"><i class="fas fa-cog"></i></div>
+            <h3>Sealed Military Grade Bearings</h3>
+            <p> The axle of the Gripforce&trade; pedals is made of chromoly steel, with Lubricated sealed bearings
+              platform
+              pedals(three high-quality bearings). Sealed bearings protect spindles from water and dust which will cause
+              noise and other problems, let you enjoy cycling in raining or climbing.</p>
+          </article>
+          <article>
+            <div class="icon"><i class="fas fa-shoe-prints"></i></div>
+            <h3>Unmatched Grip</h3>
+            <p> Gripforce&trade; pedals have <strong>TWENTY</strong> aluminum ANTI-SKID nails in the surface for
+              efficiency
+              pedaling. This bike pedals prevent your shoes from sliding off when it is wet,and whatever position you
+              place
+              your feet that’s where they stay on. The extra studs and tools are also provided for replacement needs.
+            </p>
+          </article>
+          <article>
+            <div class="icon"><i class="fas fa-feather-alt"></i></div>
+            <h3>Wide and Lightweight</h3>
+            <p>The Gripforce&trade; platform pedals weights only 422g (pair),102mm wide pedals supports the foot more
+              evenly
+              when riding, provide more comfortable riding experience for you. Hollow design on the surface not only
+              reduces
+              the weight of the pedal but also reduce the wind resistance during riding.</p>
+          </article>
+        </section>
+      </div>
+            <aside id="gallery-flex">
+        <!-- Images retrieved from www.Pixabay.com -->
+        <img class="gallery-img"
+          src="https://github.com/IanHDev/landing-page/blob/master/img/bike-2576823_1920.jpg?raw=true" title="title"
+          alt="alt">
+        <img class="gallery-img"
+          src="https://github.com/IanHDev/landing-page/blob/master/img/bike-4034630_640.jpg?raw=true" title="title"
+          alt="alt">
+        <img class="gallery-img"
+          src="https://github.com/IanHDev/landing-page/blob/master/img/gear-2251764_640.jpg?raw=true" title="title"
+          alt="alt">
+        <img class="gallery-img"
+          src="https://github.com/IanHDev/landing-page/blob/master/img/gear-2291916_640.jpg?raw=true" title="title"
+          alt="alt">
+        <img class="gallery-img"
+          src="https://github.com/IanHDev/landing-page/blob/master/img/pedal-2542003_1920.jpg?raw=true" title="title"
+          alt="alt">
+        <img class="gallery-img"
+          src="https://github.com/IanHDev/landing-page/blob/master/img/mountain-biking-1567941_1280.jpg?raw=true" title="title"
+          alt="alt">
+
+      </aside>
+    </div>
 
     <section id="pricing">
       <article class="price-flex">
@@ -144,12 +169,12 @@
     </section>
 
     <footer>
-      Author: <a href="https://twitter.com/intent/tweet?screen_name=IanHDev&ref_src=twsrc%5Etfw"
+      Author: IanHDev <a href="https://twitter.com/intent/tweet?screen_name=IanHDev&ref_src=twsrc%5Etfw"
         class="twitter-mention-button" data-show-count="false">Tweet to @TwitterDev</a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </footer>
 
-</div>
+  </div>
 
 </body>
 
